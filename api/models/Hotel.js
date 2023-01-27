@@ -1,3 +1,5 @@
+/*this is model page*/
+
 import mongoose from "mongoose";
 // const { schema } = mongoose; (no need to use it bcz below we used it)
 

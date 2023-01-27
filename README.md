@@ -19,6 +19,8 @@ you have to install npm or yarn in your system.
   ```bash
   (npm install nodemon -g) - globally or/ (nodemon i install) - single project
 ```
-express
+all packages
 ```bash
-  npm install express/ yarn add expre
+  npm install || yarn add express bcrypt jsonwebtoken cookie-parser
+```
+

@@ -6,14 +6,14 @@ import {
   getUser,
   getUsers,
 } from "../controllers/user.js";
-import {  verifyToken } from "../utils/verifyToken.js";
+import {  verifyToken, verifyUser, verifyAdmin } from "../utils/verifyToken.js";
 
 const router = express.Router();
 
 //check auth
-router.get("/checkauthentication", verifyToken, (req, res, next) => {
-  res.send("Logged in");
-});
+// router.get("/checkauthentication", verifyToken, (req, res, next) => {
+//   res.send("Logged in");
+// });
 // router.get("/checkuser/:id", verifyUser, (req, res, next) => {
 //   res.send("User you logged In");
 // });
@@ -22,15 +22,15 @@ router.get("/checkauthentication", verifyToken, (req, res, next) => {
 // });
 
 //update
-router.put("/:id", updateUser);
+router.put("/:id", verifyUser, updateUser);
 
 //delete
-router.delete("/:id", deleteUser);
+router.delete("/:id", verifyUser, deleteUser);
 
 //get
-router.get("/:id", getUser);
+router.get("/:id", verifyUser, getUser);
 
 //get all
-router.get("/", getUsers);
+router.get("/", verifyAdmin, getUsers);
 
 export default router;

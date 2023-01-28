@@ -1,8 +1,6 @@
 /*this is model page*/
 
 import mongoose from "mongoose";
-// const { schema } = mongoose; (no need to use it bcz below we used it)
-
 const RoomSchema = new mongoose.Schema(
   {
     title: {
@@ -18,8 +16,8 @@ const RoomSchema = new mongoose.Schema(
       required: true,
     },
     desc: {
-      type: Boolean,
-      default: false,
+      type: String,
+      required: true,
     },
     roomNumbers: [{number:Number, unavailableDates: {tpye: [Date]}}],
   },

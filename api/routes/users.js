@@ -15,7 +15,7 @@ const router = express.Router();
 //   res.send("Logged in");
 // });
 // router.get("/checkuser/:id", verifyUser, (req, res, next) => {
-//   res.send("User you logged In");
+//   res.send("User you logged In and delete your account");
 // });
 // router.get("/checkadmin/:id", verifyAdmin, (req, res, next) => {
 //   res.send("Admin Logged in");

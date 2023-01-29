@@ -11,15 +11,15 @@ import {  verifyToken, verifyUser, verifyAdmin } from "../utils/verifyToken.js";
 const router = express.Router();
 
 //check auth
-// router.get("/checkauthentication", verifyToken, (req, res, next) => {
-//   res.send("Logged in");
-// });
-// router.get("/checkuser/:id", verifyUser, (req, res, next) => {
-//   res.send("User you logged In and delete your account");
-// });
-// router.get("/checkadmin/:id", verifyAdmin, (req, res, next) => {
-//   res.send("Admin Logged in");
-// });
+router.get("/checkauthentication", verifyToken, (req, res, next) => {
+  res.send("Logged in");
+});
+router.get("/checkuser/:id", verifyUser, (req, res, next) => {
+  res.send("User you logged In and delete your account");
+});
+router.get("/checkadmin/:id", verifyAdmin, (req, res, next) => {
+  res.send("Admin Logged in");
+});
 
 //update
 router.put("/:id", verifyUser, updateUser);

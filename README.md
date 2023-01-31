@@ -1,7 +1,7 @@
 # hotel-management-app
 hotel management where user and book rooms, hotels etc just like real life
 
-## Installation
+## Installation Backend
 
 
 you have to install npm or yarn in your system.
@@ -23,3 +23,30 @@ all packages
 ```bash
   npm install || yarn add express bcrypt jsonwebtoken cookie-parser
 ```
+
+
+## Installation Frontend
+
+```bash
+yarn start
+```
+
+```bash
+ "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.6",
+    "date-fns": "^2.28.0",
+    "react": "^18.0.0",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  }
+  ```

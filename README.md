@@ -21,7 +21,7 @@ you have to install npm or yarn in your system.
 ```
 all packages
 ```bash
-  npm install || yarn add express bcrypt jsonwebtoken cookie-parser
+  npm install || yarn add express bcrypt jsonwebtoken cookie-parser axios
 ```
 
 

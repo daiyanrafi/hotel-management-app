@@ -14,7 +14,7 @@ const Featured = () => {
         <>
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/957801.webp?k=a969e39bcd40cdcc21786ba92826063e3cb09bf307bcfeac2aa392b838e9b7a5&o="
+              src="https://media.istockphoto.com/id/1411872473/photo/the-city-of-dhaka-skyline-at-night-bangladesh-stock-photo.jpg?s=1024x1024&w=is&k=20&c=9nGO4zUHF997jqUteOO92-wc3WEnvBE1YXpK8jGcdF8="
               alt=""
               className="featuredImg"
             />
@@ -26,7 +26,7 @@ const Featured = () => {
 
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/690334.webp?k=b99df435f06a15a1568ddd5f55d239507c0156985577681ab91274f917af6dbb&o="
+              src="https://media.istockphoto.com/id/1074152730/photo/khan-jahan-ali-bridge.jpg?s=1024x1024&w=is&k=20&c=6H_KHQi4nR0PJgCXA2R6AGZF12wNZxoPp_Ae8wZPQXg="
               alt=""
               className="featuredImg"
             />
@@ -37,7 +37,7 @@ const Featured = () => {
           </div>
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/689422.webp?k=2595c93e7e067b9ba95f90713f80ba6e5fa88a66e6e55600bd27a5128808fdf2&o="
+              src="https://media.istockphoto.com/id/696604402/photo/haifa-landscape-at-night.jpg?s=1024x1024&w=is&k=20&c=iLc_35y1UTD6bFc0aLGBfRAn_okaI8iNxQWQtCW6lz8="
               alt=""
               className="featuredImg"
             />

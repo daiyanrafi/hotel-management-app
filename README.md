@@ -50,3 +50,6 @@ yarn start
     "web-vitals": "^2.1.4"
   }
   ```
+
+  ## Media Storage
+  https://console.cloudinary.com/

@@ -9,9 +9,9 @@ export const register = async (req, res, next) => {
     const salt = bcrypt.genSaltSync(10);
     const hash = bcrypt.hashSync(req.body.password, salt);
 
+    //here i user factory method to take all properties to create new user
     const newUser = new User({
-      username: req.body.username,
-      email: req.body.email,
+      ...req.body,
       password: hash,
     });
 

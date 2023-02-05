@@ -1,8 +1,24 @@
 # hotel-management-app
 hotel management where user and book rooms, hotels etc just like real life
 
-## Installation Backend
+## BACKEND CHECK
 
+Goto postman hit this url and check 
+
+```bash
+POST: [https://booking-backend-7r36.onrender.com/api/auth/logi]
+
+GET: [https://booking-backend-7r36.onrender.com/api/hotels?featured=true&limit=1&min=10&max=200]
+
+GET: [https://booking-backend-7r36.onrender.com/api/hotels/room/63d67f0f1b38293acd6788d8]
+```
+LOGIN DETAILS
+```bash
+{
+    "username": "radha",
+    "password": "abc123"
+}
+```
 
 you have to install npm or yarn in your system.
 

@@ -27,12 +27,16 @@ LOGIN DETAILS
 
 you have to install npm or yarn in your system.
 
-## run
+## Run
 ```bash
   yarn start
 ```
 
-  yarn install 
+  **Yarn install**
+  
+  N.B: If you have already installed node in your device just clone this repo and type
+  "yarn" It will complete the setup automatically.
+  
 ```bash
   npm install --global yarn
 ```
@@ -71,8 +75,6 @@ yarn start
     "web-vitals": "^2.1.4"
   }
   ```
-  **if you have already installed node in your device just clone this repo and type
-  "yarn" It will complete the setup automatically.**
 
 
   ## Media Storage

@@ -3,7 +3,7 @@ hotel management where user and book rooms, hotels etc just like real life
 
 ## BACKEND CHECK
 
-Goto postman hit this url and check 
+Goto postman hit some of the url(below) of this project and check 
 
 ```bash
 POST: [https://booking-backend-7r36.onrender.com/api/auth/logi]

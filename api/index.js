@@ -37,6 +37,7 @@ app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
 
+//this are the main routes>coming from route folder
 app.use("/api/auth", authRoute);
 app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);

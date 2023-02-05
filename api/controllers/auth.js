@@ -34,11 +34,13 @@ export const login = async (req, res, next) => {
     );
     if (!isPasswordCorrect) return next(createError(400, "wrong password!"));
 
+    //this is to create token for user to login and logout 
+    //and to check if user is logged in or not
     const token = jwt.sign(
       { id: user._id, isAdmin: user.isAdmin },
       process.env.JWT
     );
-
+    //this is to remove password from response body and send only other details
     const { password, isAdmin, ...otherDetails } = user._doc;
     res
       .cookie("access_token", token, {

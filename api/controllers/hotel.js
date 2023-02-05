@@ -18,7 +18,7 @@ export const updateHotel = async (req, res, next) => {
   try {
     //here set is mongodb method it takes  what thing we will update
     //findbyid andupdate takes parameter objects
-    //new true will show update result in db.postman
+    //new: true will show update result in db.postman
     const updatedHotel = await Hotel.findByIdAndUpdate(
       req.params.id,
       { $set: req.body },
